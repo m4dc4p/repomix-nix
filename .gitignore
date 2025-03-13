@@ -1,0 +1,64 @@
+# Nix specific
+result
+result-*
+.direnv/
+.envrc.local
+
+# Editor directories and files
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-*
+.atom/
+.vim/
+*.swp
+*.swo
+
+# Build outputs
+dist/
+build/
+out/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/install-state.gz
+
+# Cache directories
+.npm
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.cache/
+
+# System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*~
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
