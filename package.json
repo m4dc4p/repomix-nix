@@ -1,4 +1,7 @@
 {
   "name": "repomix",
-  "version": "0.2.39"
+  "version": "0.2.39",
+  "dependencies": {
+    "repomix": "0.2.39"
+  }
 }
